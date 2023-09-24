@@ -63,7 +63,7 @@ class DetailsPage extends StatelessWidget {
                         width: 125,
                         height: 47,
                       ),
-                      SizedBox(width: 12), // Adjust the spacing
+                      SizedBox(width: 12), 
                       Text(
                         '+28K Members',
                         style: TextStyle(
@@ -72,10 +72,9 @@ class DetailsPage extends StatelessWidget {
                           color: Color(0xFFCACACA),
                         ),
                       ),
-                      SizedBox(width: 12), // Adjust the spacing
+                      SizedBox(width: 12),
                       GestureDetector(
                         onTap: () {
-                          // Navigate back to the first page
                           Navigator.pop(context);
                         },
                         child: Container(
@@ -104,7 +103,6 @@ class DetailsPage extends StatelessWidget {
                       children: [
                         GestureDetector(
                           onTap: () {
-                            // Navigate back to the first page
                             Navigator.pop(context);
                           },
                           child: Image(
@@ -116,7 +114,6 @@ class DetailsPage extends StatelessWidget {
                         SizedBox(height: 11),
                         GestureDetector(
                           onTap: () {
-                            // Navigate back to the first page
                             Navigator.pop(context);
                           },
                           child: Image(
@@ -128,7 +125,6 @@ class DetailsPage extends StatelessWidget {
                         SizedBox(height: 11),
                         GestureDetector(
                           onTap: () {
-                            // Navigate back to the first page
                             Navigator.pop(context);
                           },
                           child: Image(
