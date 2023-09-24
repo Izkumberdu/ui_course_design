@@ -1,0 +1,38 @@
+name: ui_course_design
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/frame2.png
+    - assets/frame3.png
+    - assets/frame4.png
+    - assets/frame5.png
+    - assets/rectangle1.png
+    - assets/rectangle2.png
+    - assets/rectangle3.png
+    - assets/rectangle4.png
+    - assets/rectangle5.png
+    - assets/rectangle6.png
+    - assets/face1.png
+    - assets/face2.png
+    - assets/face3.png
+    - assets/face4.png
+    - assets/faces.png
